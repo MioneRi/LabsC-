@@ -1,0 +1,12 @@
+C:\Users\PC\Desktop\LabsC#\Labaratornaya2\Labas\Task2\obj\Debug\Task2.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\LabsC#\Labaratornaya2\Labas\Task2\bin\Debug\Task2.exe.config
+C:\Users\PC\Desktop\LabsC#\Labaratornaya2\Labas\Task2\bin\Debug\Task2.exe
+C:\Users\PC\Desktop\LabsC#\Labaratornaya2\Labas\Task2\bin\Debug\Task2.pdb
+C:\Users\PC\Desktop\LabsC#\Labaratornaya2\Labas\Task2\obj\Debug\Task2.exe
+C:\Users\PC\Desktop\LabsC#\Labaratornaya2\Labas\Task2\obj\Debug\Task2.pdb
+C:\Users\PC\Desktop\LabsC#\Lab2\Labas\Task2\bin\Debug\Task2.exe.config
+C:\Users\PC\Desktop\LabsC#\Lab2\Labas\Task2\bin\Debug\Task2.exe
+C:\Users\PC\Desktop\LabsC#\Lab2\Labas\Task2\bin\Debug\Task2.pdb
+C:\Users\PC\Desktop\LabsC#\Lab2\Labas\Task2\obj\Debug\Task2.exe
+C:\Users\PC\Desktop\LabsC#\Lab2\Labas\Task2\obj\Debug\Task2.pdb
+C:\Users\PC\Desktop\LabsC#\Lab2\Labas\Task2\obj\Debug\Task2.csprojAssemblyReference.cache

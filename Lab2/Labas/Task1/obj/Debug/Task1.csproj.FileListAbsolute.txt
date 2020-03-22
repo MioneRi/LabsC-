@@ -1,0 +1,5 @@
+C:\Users\PC\Desktop\LabsC#\Lab2\Labas\Labaratornaya2\bin\Debug\Labaratornaya2.exe.config
+C:\Users\PC\Desktop\LabsC#\Lab2\Labas\Labaratornaya2\bin\Debug\Labaratornaya2.exe
+C:\Users\PC\Desktop\LabsC#\Lab2\Labas\Labaratornaya2\bin\Debug\Labaratornaya2.pdb
+C:\Users\PC\Desktop\LabsC#\Lab2\Labas\Labaratornaya2\obj\Debug\Labaratornaya2.exe
+C:\Users\PC\Desktop\LabsC#\Lab2\Labas\Labaratornaya2\obj\Debug\Labaratornaya2.pdb

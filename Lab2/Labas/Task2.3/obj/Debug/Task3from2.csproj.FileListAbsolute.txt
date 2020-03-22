@@ -1,0 +1,12 @@
+C:\Users\PC\Desktop\LabsC#\Labaratornaya2\Labas\Task2.3\bin\Debug\Task2.3.exe.config
+C:\Users\PC\Desktop\LabsC#\Labaratornaya2\Labas\Task2.3\bin\Debug\Task2.3.exe
+C:\Users\PC\Desktop\LabsC#\Labaratornaya2\Labas\Task2.3\bin\Debug\Task2.3.pdb
+C:\Users\PC\Desktop\LabsC#\Labaratornaya2\Labas\Task2.3\obj\Debug\Task3from2.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\LabsC#\Labaratornaya2\Labas\Task2.3\obj\Debug\Task2.3.exe
+C:\Users\PC\Desktop\LabsC#\Labaratornaya2\Labas\Task2.3\obj\Debug\Task2.3.pdb
+C:\Users\PC\Desktop\LabsC#\Lab2\Labas\Task2.3\bin\Debug\Task2.3.exe.config
+C:\Users\PC\Desktop\LabsC#\Lab2\Labas\Task2.3\bin\Debug\Task2.3.exe
+C:\Users\PC\Desktop\LabsC#\Lab2\Labas\Task2.3\bin\Debug\Task2.3.pdb
+C:\Users\PC\Desktop\LabsC#\Lab2\Labas\Task2.3\obj\Debug\Task2.3.exe
+C:\Users\PC\Desktop\LabsC#\Lab2\Labas\Task2.3\obj\Debug\Task2.3.pdb
+C:\Users\PC\Desktop\LabsC#\Lab2\Labas\Task2.3\obj\Debug\Task3from2.csprojAssemblyReference.cache
