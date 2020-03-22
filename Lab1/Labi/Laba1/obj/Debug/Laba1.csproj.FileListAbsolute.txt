@@ -1,0 +1,12 @@
+C:\Users\PC\Desktop\лабыC#\Labaratornaya1\ЛАбыШАРП\Laba1\obj\Debug\Laba1.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\лабыC#\Labaratornaya1\ЛАбыШАРП\Laba1\bin\Debug\Laba1.exe.config
+C:\Users\PC\Desktop\лабыC#\Labaratornaya1\ЛАбыШАРП\Laba1\bin\Debug\Laba1.exe
+C:\Users\PC\Desktop\лабыC#\Labaratornaya1\ЛАбыШАРП\Laba1\bin\Debug\Laba1.pdb
+C:\Users\PC\Desktop\лабыC#\Labaratornaya1\ЛАбыШАРП\Laba1\obj\Debug\Laba1.exe
+C:\Users\PC\Desktop\лабыC#\Labaratornaya1\ЛАбыШАРП\Laba1\obj\Debug\Laba1.pdb
+C:\Users\PC\Desktop\LabsC#\Labaratornaya1\Labi\Laba1\bin\Debug\Laba1.exe.config
+C:\Users\PC\Desktop\LabsC#\Labaratornaya1\Labi\Laba1\bin\Debug\Laba1.exe
+C:\Users\PC\Desktop\LabsC#\Labaratornaya1\Labi\Laba1\bin\Debug\Laba1.pdb
+C:\Users\PC\Desktop\LabsC#\Labaratornaya1\Labi\Laba1\obj\Debug\Laba1.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\LabsC#\Labaratornaya1\Labi\Laba1\obj\Debug\Laba1.exe
+C:\Users\PC\Desktop\LabsC#\Labaratornaya1\Labi\Laba1\obj\Debug\Laba1.pdb
