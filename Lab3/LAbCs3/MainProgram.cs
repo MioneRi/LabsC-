@@ -7,7 +7,7 @@ using static System.Console;
 
 namespace LAbCs3
 {
-    class main
+    class MainProgram
     {
         static void Main(string[] args)
         {
