@@ -7,14 +7,8 @@ using static System.Console;
 
 namespace LAbCs3
 {
-    public interface IPerson
+    public interface IPerson 
     {
-        //string Name { get; set; }    //стоит ли заносить св-ва в интерфейс?
-        //string Surname { get; set; }
-        //string Patronymic { get; set; }
-        //int Age { get; set; }
-        //static int TotalAmountOfPeople { get; }
-        //int PersonID { get; }   
         void SetInfo();
         void ShowInfo();
     }
