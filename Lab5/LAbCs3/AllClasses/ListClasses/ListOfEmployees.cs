@@ -20,7 +20,7 @@ namespace LAbCs3
             get { return journal.Count; }
         }
 
-        public Employee this[int index] //my indexator //удобно для сортировки обьектов по значениям и при дальнецшем выводе на экран
+        public Employee this[int index] //my indexator 
         {
             get { return (Employee)journal[index]; }
 
