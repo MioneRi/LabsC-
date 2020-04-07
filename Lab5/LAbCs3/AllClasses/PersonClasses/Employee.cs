@@ -9,11 +9,14 @@ namespace LAbCs3
     {
         protected int jobPositionNumber;
         //private string typeOfEmployee;
-        protected string jobPosition; //должность
+        // Должность.
+        protected string jobPosition;
         private int workExperience;
         private int salary;
-        private string formOfRemuneration; //форма оплаты труда
-        private static int totalAmountOfEmployees = 0; //общее кол-во работников
+        // Форма оплаты труда.
+        private string formOfRemuneration;
+        // Общее кол-во работников.
+        private static int totalAmountOfEmployees = 0;
 
         public Employee()
         {
@@ -93,32 +96,6 @@ namespace LAbCs3
             WriteLine("Должность : " + jobPosition);
 
         }       
-
-        public int CompareTo(object obj) //можно использовать метод "Sort(array)" для массива
-        {
-            Employee ourEmployee = obj as Employee; //пробуем перевести обьект к типу Student
-
-            if (ourEmployee != null)
-            {
-                if (this.WorkExperience < ourEmployee.WorkExperience)
-                {
-                    return -1;
-                }
-                else if (this.WorkExperience > ourEmployee.WorkExperience)
-                {
-                    return 1;
-                }
-                else
-                {
-                    return 0;
-                }
-            }
-            else //если передан обьект другого типа
-            {
-                throw new Exception("Параметр должен быть типа Employee.");
-            }
-
-        }
 
         public static bool operator >(Employee firstEmployee, Employee secondEmployee)
         {

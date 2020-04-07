@@ -13,12 +13,15 @@ namespace LAbCs3
         void ShowInfo();
     }
 
-    public abstract class Person : IPerson //abstract cuze we won't create a Person obj.
+    // Abstract cuze we won't create a Person obj.
+    public abstract class Person : IPerson
     {
-        private static int totalAmountOfPeople = 0; //общее кол-во людей
+        // Oбщее кол-во людей.
+        private static int totalAmountOfPeople = 0;
         private string name;
         private string surname;
-        private string patronymic; //отчество
+        // Отчество.
+        private string patronymic; 
         private int age;      
         private int personID;
 

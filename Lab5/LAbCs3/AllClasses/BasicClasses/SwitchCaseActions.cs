@@ -57,7 +57,8 @@ namespace LAbCs3
             Write("Введите ID сотрудника : ");
             ourInputID = MainActions.GetCorrectPositiveInt();
 
-            foreach (Employee ourEmployee in ListOfEmployees.journal.ToArray()) //that's possible if List -> Array ... but for my new class it isn't necc
+            // That's possible if List -> Array ... but for my new class it isn't necessary.
+            foreach (Employee ourEmployee in ListOfEmployees.journal.ToArray())
             {
                 if (ourInputID == ourEmployee.PersonID)
                 {
@@ -77,7 +78,8 @@ namespace LAbCs3
             Write("Введите ID студента : ");
             ourInputID = MainActions.GetCorrectPositiveInt();
 
-            foreach (Student ourStudent in ListOfStudents.journal.ToArray()) //that's possible if List -> Array ... but for my new class it isn't necc
+            // That's possible if List -> Array ... but for my new class it isn't necessary.
+            foreach (Student ourStudent in ListOfStudents.journal.ToArray()) 
             {
                 if (ourInputID == ourStudent.PersonID)
                 {
@@ -128,7 +130,6 @@ namespace LAbCs3
 
             MainActions.NoExistMassege(flag, TypeOfPerson.Employee, AmountOfPersons.One);
         }
-
 
     }
 }

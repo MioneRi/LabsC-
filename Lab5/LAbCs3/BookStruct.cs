@@ -10,9 +10,11 @@ namespace LAbCs3
         private int bookID;
         private string title;
         private int price;
-        private int year; //год выпуска
+        // Год выпуска.
+        private int year;
 
-        public Book(int bookID) : this() //initialize all fields with zeroes
+        // Initialize all fields with zeroes.
+        public Book(int bookID) : this() 
         {
             this.bookID = bookID;
         }

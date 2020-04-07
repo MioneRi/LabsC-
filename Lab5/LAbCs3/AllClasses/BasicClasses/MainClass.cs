@@ -252,7 +252,7 @@ namespace LAbCs3
 
                                     case 3:
                                         {                                           
-                                            ListOfEmployees.ShowAll(); //можно допилить как со студентами
+                                            ListOfEmployees.ShowAll();
                                         }
                                         break;
 
@@ -266,12 +266,6 @@ namespace LAbCs3
                                         {
                                             ListOfEmployees.SortByWorkExperience();
                                             ListOfEmployees.ShowAll();
-
-                                            if (ListOfStudents.ActualNumberOfStudents == 0)
-                                            {
-                                                WriteLine("( There is no any employees )");
-                                            }
-
                                         }
                                         break;
 

@@ -8,16 +8,22 @@ namespace LAbCs3
 {
     public interface IJournal
     {
-        public IEnumerator GetEnumerator(); //для хорошего foreach()
-        static void Add(object obj) { } //по умолчанию public
+        // Для хорошего foreach().
+        public IEnumerator GetEnumerator();
+
+        // По умолчанию public.
+        static void Add(object obj) { } 
+
         static void Remove(object obj) { }
+
         static void ShowAll() { }
     }
 
 
     class ListOfStudents : IJournal
-    {        
-        public static List<Student> journal = new List<Student>(); //there's a "contains" method
+    {
+        // There's a "contains" method.
+        public static List<Student> journal = new List<Student>();
 
         public static int ActualNumberOfStudents
         {
@@ -29,7 +35,9 @@ namespace LAbCs3
             get { return journal.Count; }
         }
 
-        public Student this[int index] //my indexator //удобно для сортировки обьектов по значениям и при дальнецшем выводе на экран
+        // My indexator. 
+        // Удобно для сортировки обьектов по значениям и при дальнейшем выводе на экран.
+        public Student this[int index]
         {
             get { return (Student)journal[index]; }
 
@@ -42,11 +50,13 @@ namespace LAbCs3
             }
         }
 
-        public IEnumerator GetEnumerator() //for correct work "foreach" construction!
+        // For correct work "foreach" construction.
+        public IEnumerator GetEnumerator()
         {
             foreach (object o in journal)
             {
-                yield return o; //"yield" let us know about the last index that was used
+                // "yield" let us know about the last index that was used.
+                yield return o; 
             }
         }
 
@@ -58,7 +68,8 @@ namespace LAbCs3
             {
                 journal.Add(ourStudent);
             }
-            else //если передан обьект другого типа
+            // Если передан обьект другого типа.
+            else
             {
                 throw new Exception("Параметр должен быть типа Student.");
             }
@@ -73,7 +84,8 @@ namespace LAbCs3
             {
                 journal.Remove(ourStudent);
             }
-            else //если передан обьект другого типа
+            // Если передан обьект другого типа.
+            else
             {
                 throw new Exception("Параметр должен быть типа Student.");
             }
@@ -98,7 +110,8 @@ namespace LAbCs3
             MainActions.NoExistMassege(flag, TypeOfPerson.Student, AmountOfPersons.Several);
         }
 
-        public static void SortByProgress() //убывание
+        // По убыванию.
+        public static void SortByProgress()
         {
             var length = journal.Count;
 

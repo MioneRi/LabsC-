@@ -19,8 +19,9 @@ namespace LAbCs3
         One,
         Several
     }
-
-    public class MainActions : IComparer<Student>, IComparer<Employee> //статический класс не может наследовать интерфейсы
+    
+    // Статический класс не может наследовать интерфейсы.
+    public static class MainActions 
     {
         public static string ChoosenFormOfRemuneration()
         {
@@ -130,7 +131,8 @@ namespace LAbCs3
             return ourInt;
         }
 
-        public static int GetCorrectPositiveInt(int numberFrom, int numberTill) //checks the gap
+        // Checks interval.
+        public static int GetCorrectPositiveInt(int numberFrom, int numberTill)
         {
             int ourInt;
 
@@ -153,7 +155,8 @@ namespace LAbCs3
             return ourInt;
         }
 
-        public static int GetCorrectPositiveInt(int numberTill) //checks the gap
+        // Checks interval.
+        public static int GetCorrectPositiveInt(int numberTill)
         {
             int ourInt;
 
@@ -195,7 +198,8 @@ namespace LAbCs3
             return ourGroup;
         }
 
-        public static string GetCorrectString() //string should be less than 60 chars
+        // String should be less than 60 chars.
+        public static string GetCorrectString()
         {
             string ourString;
 
@@ -209,7 +213,8 @@ namespace LAbCs3
             return ourString;
         }
 
-        public static void NoExistMassege(bool flag, TypeOfPerson typeOfPerson, AmountOfPersons amountOfPersons) //here i use enums
+        // Here i use enums.
+        public static void NoExistMassege(bool flag, TypeOfPerson typeOfPerson, AmountOfPersons amountOfPersons)
         {
             if (flag == false)
             {
@@ -278,64 +283,6 @@ namespace LAbCs3
 
             return ourProgress;
         }
-
-        //public static void BubbleSort<T>(ref List<T> journal)
-        //{
-        //    var length = journal.Count;
-
-        //    for (int i = 1; i < length; i++)
-        //    {
-        //        for (int j = 0; j < length - i; j++)
-        //        {
-        //            if ( /*journal[j] < journal[j + 1] */ Compare(journal[j], journal[j + 1]))
-        //            {
-
-        //                var temp = journal[j];
-        //                journal[j] = journal[j + 1];
-        //                journal[j + 1] = temp;
-
-        //            }
-        //        }
-        //    }
-        //}
-
-        public static void Swap<T>(ref T firstObject, ref T secondObject)
-        {
-            T temp = firstObject;
-            firstObject = secondObject;
-            secondObject = temp;
-        }
-
-        public int Compare([AllowNull] Student x, [AllowNull] Student y) // returns 1 if x > y
-        {
-            if (x.Progress < y.Progress)
-            {
-                return -1;
-            }
-            else if (x.Progress > y.Progress)
-            {
-                return 1;
-            }
-            else
-            {
-                return 0;
-            }
-        }
-
-        public int Compare([AllowNull] Employee x, [AllowNull] Employee y)
-        {
-            if (x.WorkExperience < y.WorkExperience)
-            {
-                return -1;
-            }
-            else if (x.WorkExperience > y.WorkExperience)
-            {
-                return 1;
-            }
-            else
-            {
-                return 0;
-            }
-        }
+        
     }
 }       

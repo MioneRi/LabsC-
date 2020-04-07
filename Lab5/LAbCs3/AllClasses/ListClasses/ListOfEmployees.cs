@@ -20,7 +20,8 @@ namespace LAbCs3
             get { return journal.Count; }
         }
 
-        public Employee this[int index] //my indexator 
+        // My indexator.
+        public Employee this[int index]  
         {
             get { return (Employee)journal[index]; }
 
@@ -35,11 +36,13 @@ namespace LAbCs3
 
         }
 
-        public IEnumerator GetEnumerator() //for correct work "foreach" construction!
+        // For correct work "foreach" construction.
+        public IEnumerator GetEnumerator()
         {
             foreach (object o in journal)
             {
-                yield return o; //"yield" let us know about the last index that was used
+                // "yield" let us know about the last index that was used.
+                yield return o; 
             }
         }
 
@@ -92,7 +95,8 @@ namespace LAbCs3
 
         }
 
-        public static void SortByWorkExperience() //убывание
+        // По убыванию.
+        public static void SortByWorkExperience()
         {
             var length = journal.Count;
 
@@ -112,7 +116,6 @@ namespace LAbCs3
             }
 
         }
-
 
     }
 }

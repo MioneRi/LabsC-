@@ -9,10 +9,12 @@ using static System.Console;
 namespace LAbCs3
 {
 
-    public class Student : Person, IComparable
+    public class Student : Person
     {
-        private static int totalAmountOfStudents = 0; //общее кол-во студентов
-        private int year; //курс
+        // Общее кол-во студентов.
+        private static int totalAmountOfStudents = 0;
+        // Курс.
+        private int year; 
         private string faculty;
         private string specialty;
         private string group;
@@ -81,39 +83,14 @@ namespace LAbCs3
 
         public override void ShowInfo()
         {
-            base.ShowInfo(); // Calling the base class SetInfo method;
+            // Calling the base class SetInfo method.
+            base.ShowInfo(); 
 
             WriteLine("Факультет : " + Faculty);
             WriteLine("Специальность : " + Specialty);
             WriteLine("Курс : " + Year);
             WriteLine("Группа : " + Group);
             WriteLine("Успеваемость : " + Progress);
-        }
-
-        public int CompareTo(object obj) //можно использовать метод "Sort(array)" для массива
-        {
-            Student ourStudent = obj as Student; //пробуем перевести обьект к типу Student
-
-            if (ourStudent != null)
-            {
-                if (this.Progress < ourStudent.Progress)
-                {
-                    return -1;
-                }
-                else if (this.Progress > ourStudent.Progress)
-                {
-                    return 1;
-                }
-                else
-                {
-                    return 0;
-                }
-            }
-            else //если передан обьект другого типа
-            {
-                throw new Exception("Параметр должен быть типа Student.");
-            }
-
         }
 
         public static bool operator >(Student firstStudent, Student secondStudent)

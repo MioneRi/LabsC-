@@ -5,7 +5,8 @@ using static System.Console;
 
 namespace LAbCs3
 {
-    class OtherEmployees : Employee //другие сотрудники
+    // Другие сотрудники.
+    class OtherEmployees : Employee
     {
         public override void SetInfo()
         {
