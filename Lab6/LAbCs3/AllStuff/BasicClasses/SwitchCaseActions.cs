@@ -444,7 +444,9 @@ namespace LAbCs3
             {
                 if (ourBook.BookID == ourID)
                 {
-                    ourBook.ToString("Full", new CultureInfo("en-US"));
+                    string ourAnswer;
+                    ourAnswer = ourBook.ToString("Full", new CultureInfo("en-US"));
+                    WriteLine(ourAnswer);
                     flag = true;
                     break;
                 }
